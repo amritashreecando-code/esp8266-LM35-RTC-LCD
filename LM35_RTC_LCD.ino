@@ -5,11 +5,11 @@
 #include "ThingSpeak.h"
 
 // ─── CONFIG ───────────────────────────────────────────
-const char* WIFI_SSID     = "Your_WiFi_SSID";
-const char* WIFI_PASS     = "Your_WiFi_Password";
+const char* WIFI_SSID     = "iman";
+const char* WIFI_PASS     = "iman@12345";
 
-unsigned long TS_CHANNEL  = 0000000;       // Your ThingSpeak Channel ID
-const char*   TS_API_KEY  = "XXXXXXXXXXXXXXXX"; // Write API Key
+unsigned long TS_CHANNEL  =;       // Your ThingSpeak Channel ID
+const char*   TS_API_KEY  = "; // Write API Key
 // ──────────────────────────────────────────────────────
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
